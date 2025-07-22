@@ -24,7 +24,7 @@ body {
 .logo {
     font-weight: 700;
     font-size: 1.5rem;
-    color: #ffd700; /* Dorado */
+    color: #ffd700;
 }
 
 /* Enlaces del nav */
@@ -58,7 +58,7 @@ body {
 .hero {
     height: 70vh;
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                url('/static/img/taller.jpg') no-repeat center center/cover;
+                url('static/img/taller.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
