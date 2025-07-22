@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Galería - Mecánica Total</title>
 
+    <!-- Fuente desde Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/static/css/style.css" />
-    <script src="/static/js/script.js" defer></script>
+
+    <!-- Rutas corregidas para CSS y JS -->
+    <link rel="stylesheet" href="static/css/style.css" />
+    <script src="static/js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,11 +18,11 @@
             <div class="logo">🔧 Mecánica Total</div>
             <div class="hamburger" onclick="toggleMenu()">☰</div>
             <ul class="nav-links" id="navLinks">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/servicios">Servicios</a></li>
-                <li><a href="/nosotros">Nosotros</a></li>
-                <li><a href="/galeria" class="active">Galería</a></li>
-                <li><a href="/contacto">Contacto</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="galeria.html" class="active">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -31,10 +34,10 @@
         </section>
 
         <section class="gallery-grid">
-            <img src="/static/img/taller.jpg" alt="Taller Mecánica Total">
-            <!-- Puedes duplicar esta línea y reemplazar imágenes reales -->
-            <img src="/static/img/taller.jpg" alt="Auto en reparación">
-            <img src="/static/img/taller.jpg" alt="Zona de trabajo">
+            <!-- Rutas corregidas para imágenes -->
+            <img src="static/img/taller.jpg" alt="Taller Mecánica Total">
+            <img src="static/img/taller.jpg" alt="Auto en reparación">
+            <img src="static/img/taller.jpg" alt="Zona de trabajo">
         </section>
     </main>
 
