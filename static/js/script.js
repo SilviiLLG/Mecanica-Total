@@ -1,5 +1,8 @@
-function togglemenu(){
+function toggleMenu() {
     const menu = document.getElementById("navLinks");
-    menu.style.display = menu.style.display === "flex"?
-    "none": "flex";
+    if (menu.classList.contains("active")) {
+        menu.classList.remove("active");
+    } else {
+        menu.classList.add("active");
+    }
 }
